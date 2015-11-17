@@ -1,13 +1,14 @@
 # burlap-seed
 Default project that should work with Ant
 
-Generally you would navigate to the burlap-seed folder and run 
+Currently the default usage has the burlap library with dependencies, if you want something else modify the build.xml
+If you don't want to compile HelloGridWorld.java and your own file make appropriate changes (I don't know Ant that well, my file was based on an example from [ants website](https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html)). 
 
-    ant
+Basically if you just run ant alone you'll compile your stuff, if you run ant run it'll run your resulting .jar or you can call out the specific steps, if you'd like.
 
-Additionally if you just need to compile
+Each can be ran independently or together.
 
-   ant compile
+    ant clean build run
 
 Running individual classes can happen using the command line
 
