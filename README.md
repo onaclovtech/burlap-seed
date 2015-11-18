@@ -16,3 +16,6 @@ Running individual classes can happen using the command line
 
 Convert to appropriate slashes,etc for Windows
 
+This seems to work in windows
+
+    java -cp .\lib\burlap.jar;.\build\jar\burlap-seed.jar main.java.HelloGridWorld
