@@ -103,7 +103,7 @@ protected int [][] map = new int[][]{
 		gwdg = new GridWorldDomain(3,2); // Seems like it's 0 based, so it's really the numbers 4,3 if you count the squares
 		gwdg.setMap(map);
         //gwdg.setProbSucceedTransitionDynamics(.9385);
-        gwdg.setProbSucceedTransitionDynamics(1.0);
+        gwdg.setProbSucceedTransitionDynamics(0.1);
 		domain = gwdg.generateDomain();
 
 
